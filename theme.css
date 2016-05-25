@@ -1,0 +1,84 @@
+
+@media only screen and (max-device-width : 480px){  .mobileHide { display: none;}}
+
+* {
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #1E5375;
+}
+
+#search_form_well, #favorite_list, #stock_details {
+    background-color: white;
+    background-image: none;
+    margin: 10 auto;
+    border-radius: 10px;
+}
+
+#title {
+    text-align: center;
+    font-size: 18px;
+}
+
+#search_form, #favorite_list_table, #stock_details_table {
+    font-size: 14px;
+}
+
+.ui-autocomplete-input {
+    font-size: 14px;
+}
+
+#red {
+    color: red;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.panel-heading {
+    padding-bottom: 2px;
+}
+
+#stock_detail_row {
+    padding: 0 28 0 28;
+}
+
+#invalid_entry {
+    color: red;
+}
+
+.highcharts-container {
+    width:100% !important; 
+    height:400px !important;
+}
+
+g.highcharts-input-group {
+    visibility: hidden;
+}
+
+.news_feed_des {
+    margin: 10px auto 20px auto;
+}
+
+.news_feed_pub, .news_feed_date {
+    margin: 10 auto;
+}
+
+#favorite_star {
+    font-size: 20px;
+    color: white;
+    position: center;
+    text-shadow: -0.5px -0.5px 0 black, 0.5px -0.5px 0 black, -0.5px 0.5px 0 black, 0.5px 0.5px 0 black;
+}
+
+#facebook {
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+}
