@@ -21,7 +21,7 @@
 	}
 
     if (isset($_GET["newsQuery"])) {
-	    $accountKey = '/In/xCLTbKp1doWAM5PUNNDBw2uzgG7BvsoEvtziV7A';
+	    $accountKey = 'xxx';
 	    $ServiceRootURL =  'https://api.datamarket.azure.com/Bing/Search/v1/';	    
 	    $WebSearchURL = $ServiceRootURL . 'News?Query=' . urlencode("'" . $_GET["newsQuery"]. "'") . '&$format=json';
 	    
